@@ -8,7 +8,7 @@ app1 = Flask("BestCrypto")
 def main():
     return '''
      <form action="/echo_user_input" method="POST">
-         <input name="user_input" placeholder="Insert a message to be echoed">
+         <input name="user_input" placeholder="Insert text to be echoed">
          <input type="submit" value="Submit!">
      </form>
      '''
